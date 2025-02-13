@@ -1,6 +1,6 @@
 #!/bin/bash
-/sbin/iptables -F
-/sbin/iptables -X
+/sbin/iptables -t filter -F
+/sbin/iptables -t filter -X
 /sbin/iptables -t nat -F
 /sbin/iptables -t nat -X
 /sbin/iptables -t mangle -F
