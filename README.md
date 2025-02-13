@@ -5,6 +5,10 @@ This is a script for setting up a firewall with settings for tarpitting ssh and 
 
 ## Download the rules to /etc/
 ```
+git clone https://github.com/tatanyave/SimpleFirewall.git/
+````
+````
+Original
 git clone https://github.com/ChrisTitusTech/firewallsetup.git
 ````
 ## Make the Rules Permenant
